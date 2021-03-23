@@ -202,14 +202,14 @@ by exp-lbrs.ulp</description>
 <circle x="0" y="0" radius="2.75" width="0" layer="41"/>
 <circle x="0" y="0" radius="2.75" width="0" layer="42"/>
 <pad name="P$1" x="0" y="0" drill="2.75" diameter="5"/>
-<pad name="P$2" x="0" y="1.95" drill="0.3" stop="no"/>
-<pad name="P$3" x="0" y="-1.95" drill="0.3" stop="no"/>
-<pad name="P$4" x="-1.95" y="0" drill="0.3" stop="no"/>
-<pad name="P$5" x="1.95" y="0" drill="0.3" stop="no"/>
-<pad name="P$6" x="1.4" y="1.4" drill="0.3" stop="no"/>
-<pad name="P$7" x="-1.4" y="1.4" drill="0.3" stop="no"/>
-<pad name="P$8" x="-1.4" y="-1.4" drill="0.3" stop="no"/>
-<pad name="P$9" x="1.4" y="-1.4" drill="0.3" stop="no"/>
+<pad name="P$2" x="0" y="1.95" drill="0.35" stop="no"/>
+<pad name="P$3" x="0" y="-1.95" drill="0.35" stop="no"/>
+<pad name="P$4" x="-1.95" y="0" drill="0.35" stop="no"/>
+<pad name="P$5" x="1.95" y="0" drill="0.35" stop="no"/>
+<pad name="P$6" x="1.4" y="1.4" drill="0.35" stop="no"/>
+<pad name="P$7" x="-1.4" y="1.4" drill="0.35" stop="no"/>
+<pad name="P$8" x="-1.4" y="-1.4" drill="0.35" stop="no"/>
+<pad name="P$9" x="1.4" y="-1.4" drill="0.35" stop="no"/>
 <circle x="0" y="0" radius="1.375" width="0.127" layer="51"/>
 <circle x="0" y="0" radius="2.501996875" width="0.127" layer="51"/>
 <circle x="0" y="0" radius="1.375" width="0.127" layer="52"/>
@@ -231,7 +231,7 @@ by exp-lbrs.ulp</description>
 <pad name="P3" x="0" y="4.92" drill="1" diameter="1.8"/>
 <text x="0" y="2.75" size="1.5" layer="21" ratio="10" align="center">&gt;NAME</text>
 <hole x="0" y="0" drill="3"/>
-<text x="0" y="2.75" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
+<text x="0" y="3.75" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
 <circle x="0" y="0" radius="1.5" width="0.127" layer="20"/>
 </package>
 <package name="POT">

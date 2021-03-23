@@ -1813,7 +1813,7 @@ by exp-lbrs.ulp</description>
 <vertex x="2.061709375" y="1.144628125"/>
 <vertex x="1.77950625" y="1.144628125"/>
 </polygon>
-<text x="0" y="-3.75" size="1.2" layer="21" ratio="10" rot="SR0" align="center">US000XXX</text>
+<text x="0" y="-3.75" size="1.2" layer="21" ratio="10" rot="SR0" align="center">US000202</text>
 </package>
 <package name="LOGO-TD">
 <polygon width="0" layer="21">

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -266,14 +266,14 @@ by exp-lbrs.ulp</description>
 <circle x="0" y="0" radius="2.75" width="0" layer="41"/>
 <circle x="0" y="0" radius="2.75" width="0" layer="42"/>
 <pad name="P$1" x="0" y="0" drill="2.75" diameter="5"/>
-<pad name="P$2" x="0" y="1.95" drill="0.3" stop="no"/>
-<pad name="P$3" x="0" y="-1.95" drill="0.3" stop="no"/>
-<pad name="P$4" x="-1.95" y="0" drill="0.3" stop="no"/>
-<pad name="P$5" x="1.95" y="0" drill="0.3" stop="no"/>
-<pad name="P$6" x="1.4" y="1.4" drill="0.3" stop="no"/>
-<pad name="P$7" x="-1.4" y="1.4" drill="0.3" stop="no"/>
-<pad name="P$8" x="-1.4" y="-1.4" drill="0.3" stop="no"/>
-<pad name="P$9" x="1.4" y="-1.4" drill="0.3" stop="no"/>
+<pad name="P$2" x="0" y="1.95" drill="0.35" stop="no"/>
+<pad name="P$3" x="0" y="-1.95" drill="0.35" stop="no"/>
+<pad name="P$4" x="-1.95" y="0" drill="0.35" stop="no"/>
+<pad name="P$5" x="1.95" y="0" drill="0.35" stop="no"/>
+<pad name="P$6" x="1.4" y="1.4" drill="0.35" stop="no"/>
+<pad name="P$7" x="-1.4" y="1.4" drill="0.35" stop="no"/>
+<pad name="P$8" x="-1.4" y="-1.4" drill="0.35" stop="no"/>
+<pad name="P$9" x="1.4" y="-1.4" drill="0.35" stop="no"/>
 <circle x="0" y="0" radius="1.375" width="0.127" layer="51"/>
 <circle x="0" y="0" radius="2.501996875" width="0.127" layer="51"/>
 <circle x="0" y="0" radius="1.375" width="0.127" layer="52"/>
@@ -2606,7 +2606,7 @@ by exp-lbrs.ulp</description>
 <vertex x="2.061709375" y="1.144628125"/>
 <vertex x="1.77950625" y="1.144628125"/>
 </polygon>
-<text x="0" y="-3.75" size="1.2" layer="21" ratio="10" rot="SR0" align="center">US000XXX</text>
+<text x="0" y="-3.75" size="1.2" layer="21" ratio="10" rot="SR0" align="center">US000202</text>
 </package>
 <package name="LOGO-PN">
 <text x="0" y="0" size="2" layer="21" ratio="10" rot="SR0" align="center">TD-URSE-C-MB</text>
