@@ -1,4 +1,4 @@
-# µRings SE (uRings, microRings) Eurorack [Rev C]
+# µRings SE (uRings, microRings) Eurorack [Rev D]
 
 ## 8HP Eurorack module | Resonator
 
