@@ -1,5 +1,5 @@
 Name,Part Number,Material,Soldermask,Silkscreen,Finish,Thickness (mm),Length (mm),Width (mm),Trace (mil),Hole (mm)
-uRings SE Main Board ,TD-URSE-C-MB,FR-4,Matte black,White,ENIG,1.6,110.5,40.0,10,0.25
-uRings SE Control Board,TD-URSE-C-CB,FR-4,Matte black,White,ENIG,1.6,110.5,40.0,10,0.35
-uRings SE Front Panel,TD-URSE-C-FP,FR-4,Matte black,None,ENIG,2.0,128.5,40.3,N/A,N/A
-uRings SE Assembly Template,TD-URSE-C-AT,FR-4,Green,White,ENIG,2.0,110.5,40.0,N/A,N/A
+uRings SE Main Board ,TD-URSE-D-MB,FR-4,Matte black,White,ENIG,1.6,110.5,40.0,10,0.25
+uRings SE Control Board,TD-URSE-D-CB,FR-4,Matte black,White,ENIG,1.6,110.5,40.0,10,0.35
+uRings SE Front Panel,TD-URSE-D-FP,FR-4,Matte black,None,ENIG,2.0,128.5,40.3,N/A,N/A
+uRings SE Assembly Template,TD-URSE-D-AT,FR-4,Green,White,ENIG,2.0,110.5,40.0,N/A,N/A

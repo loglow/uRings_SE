@@ -6,6 +6,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibraryUrn="urn:adsk.eagle:library:229"
 UsedLibrary="uRings_SE_Library.lbr"
 
 [Win_1]
@@ -13,5 +14,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1680 1050"
+Screen="1470 956"
 Window="Win_1"
