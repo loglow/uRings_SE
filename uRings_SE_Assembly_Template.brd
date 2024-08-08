@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -95,13 +95,13 @@
 <hole x="34.5" y="34.5" drill="3.2"/>
 <text x="20" y="28" size="2" layer="21" ratio="12" align="center">µRings SE
 Assembly Template
-TD-URSE-C-AT
-2020-01-16
+TD-URSE-D-AT
+2024-08-07
 tall-dog.com</text>
 <text x="20" y="28" size="2" layer="22" ratio="12" rot="MR0" align="center">µRings SE
 Assembly Template
-TD-URSE-C-AT
-2020-01-16
+TD-URSE-D-AT
+2024-08-07
 tall-dog.com</text>
 <text x="20" y="46" size="3.5" layer="22" ratio="12" rot="MR0" align="center">2.0 mm</text>
 <text x="20" y="46" size="3.5" layer="21" ratio="12" align="center">2.0 mm</text>
@@ -113,6 +113,8 @@ tall-dog.com</text>
 <wire x1="28" y1="49" x2="28" y2="43" width="0.254" layer="22"/>
 <wire x1="28" y1="43" x2="12" y2="43" width="0.254" layer="22"/>
 <wire x1="12" y1="43" x2="12" y2="49" width="0.254" layer="22"/>
+<text x="20" y="10.5" size="2.5" layer="22" ratio="12" rot="MR0" align="center">EITHER SIDE UP</text>
+<text x="20" y="10.5" size="2.5" layer="21" ratio="12" align="center">EITHER SIDE UP</text>
 </plain>
 <libraries>
 <library name="uRings_SE_Library">

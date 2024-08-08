@@ -57,8 +57,8 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="48" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="48" fill="1" visible="no" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -81,11 +81,9 @@
 <wire x1="3" y1="0" x2="0" y2="3" width="0.127" layer="20" curve="-90"/>
 <wire x1="40" y1="3" x2="37" y2="0" width="0.127" layer="20" curve="-90"/>
 <wire x1="37" y1="110.5" x2="40" y2="107.5" width="0.127" layer="20" curve="-90"/>
-<text x="20" y="57.5" size="1.5" layer="22" ratio="10" rot="MR0" align="center">TD-URSE-D-CB</text>
-<text x="20" y="49.5" size="1.5" layer="22" ratio="10" rot="MR0" align="center">2024-07-24</text>
-<text x="20" y="27.5" size="1.25" layer="21" ratio="10" align="center">TD-URSE-D-CB
-2024-07-24
-tall-dog.com</text>
+<text x="20" y="80" size="1.5" layer="22" ratio="10" rot="MR0" align="center">TD-URSE-D-CB</text>
+<text x="20" y="49.5" size="1.5" layer="22" ratio="10" rot="MR0" align="center">2024-08-07</text>
+<text x="20" y="27.5" size="1.25" layer="21" ratio="10" align="center">TD-URSE-D-CB</text>
 <text x="20" y="42.5" size="1.5" layer="22" ratio="10" rot="MR0" align="center">tall-dog.com</text>
 <text x="7" y="98.5" size="1" layer="52" ratio="10" rot="MR0" align="center">H1</text>
 <text x="7" y="68.5" size="1" layer="52" ratio="10" rot="MR0" align="center">H2</text>
@@ -95,6 +93,12 @@ tall-dog.com</text>
 <text x="7" y="71.5" size="1" layer="22" ratio="10" rot="MR0" align="bottom-center">H2</text>
 <text x="13.75" y="27.5" size="1" layer="22" ratio="10" rot="MR90" align="bottom-center">H3</text>
 <text x="26.25" y="27.5" size="1" layer="22" ratio="10" rot="MR270" align="bottom-center">H4</text>
+<text x="7" y="39.5" size="1" layer="21" ratio="10" align="center">USE SPACERS
+UNDER LEDS</text>
+<text x="20" y="30.5" size="1" layer="51" ratio="10" align="center">USE SPACERS UNDER LEDS</text>
+<text x="19.5" y="87.5" size="1.5" layer="22" ratio="10" rot="MR0" align="center">Control Board</text>
+<text x="19.5" y="95" size="1.5" layer="22" ratio="10" rot="MR0" align="center">µRings SE</text>
+<text x="20" y="57.5" size="1.5" layer="22" ratio="10" rot="MR0" align="center">CC BY-SA 4.0</text>
 </plain>
 <libraries>
 <library name="uRings_SE_Library">
@@ -154,8 +158,9 @@ by exp-lbrs.ulp</description>
 <pad name="P3" x="0" y="4.92" drill="1" diameter="1.8"/>
 <text x="4.5" y="-5" size="1" layer="21" ratio="10" rot="R90" align="bottom-right">&gt;NAME</text>
 <hole x="0" y="0" drill="3"/>
-<text x="0" y="3.75" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1.5" width="0.127" layer="20"/>
+<text x="0" y="0" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
 </package>
 <package name="POT">
 <wire x1="4.85" y1="-5.5" x2="-4.85" y2="-5.5" width="0.127" layer="21"/>
@@ -179,6 +184,8 @@ by exp-lbrs.ulp</description>
 <pad name="P$5" x="4.4" y="0" drill="2.2" diameter="3.2" rot="R270"/>
 <text x="-5.4" y="-5.5" size="1" layer="21" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0" size="1" layer="51" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
 </package>
 <package name="TL1105">
 <circle x="0" y="0" radius="1.75" width="0.127" layer="21"/>
@@ -279,6 +286,24 @@ by exp-lbrs.ulp</description>
 <wire x1="40" y1="3" x2="37" y2="0" width="0.127" layer="49" curve="-90"/>
 <wire x1="0" y1="107.5" x2="3" y2="110.5" width="0.127" layer="49" curve="-90"/>
 <wire x1="37" y1="110.5" x2="40" y2="107.5" width="0.127" layer="49" curve="-90"/>
+</package>
+<package name="LED-SPACER">
+<wire x1="-1.1" y1="2.5" x2="-2.5" y2="1.1" width="0.127" layer="21"/>
+<wire x1="1.1" y1="2.5" x2="2.5" y2="1.1" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.1" x2="1.1" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.1" x2="-1.1" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="2.5" x2="1.1" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.1" x2="2.5" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-2.5" x2="-1.1" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.1" x2="-2.5" y2="1.1" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="2.5" x2="-2.5" y2="1.1" width="0.127" layer="51"/>
+<wire x1="-1.1" y1="2.5" x2="1.1" y2="2.5" width="0.127" layer="51"/>
+<wire x1="1.1" y1="2.5" x2="2.5" y2="1.1" width="0.127" layer="51"/>
+<wire x1="2.5" y1="1.1" x2="2.5" y2="-1.1" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-1.1" x2="1.1" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="1.1" y1="-2.5" x2="-1.1" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-1.1" x2="-1.1" y2="-2.5" width="0.127" layer="51"/>
+<wire x1="-2.5" y1="-1.1" x2="-2.5" y2="1.1" width="0.127" layer="51"/>
 </package>
 </packages>
 </library>
@@ -477,43 +502,43 @@ design rules under a new name.</description>
 <elements>
 <element name="J10" library="uRings_SE_Library" package="JACK" value="JACK" x="32.5" y="4.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="27.5" y="9" size="1" layer="21" ratio="10" align="top-right"/>
-<attribute name="NAME" x="36.25" y="4.5" size="1" layer="51" ratio="10" rot="R270" align="center"/>
+<attribute name="NAME" x="32.5" y="4.5" size="1" layer="51" ratio="10" rot="R270" align="center"/>
 </element>
 <element name="J1" library="uRings_SE_Library" package="JACK" value="JACK" x="7.5" y="106" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.5" y="110" size="1" layer="21" ratio="10" rot="R180" align="bottom-right"/>
-<attribute name="NAME" x="3.75" y="106" size="1" layer="51" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="7.5" y="106" size="1" layer="51" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J9" library="uRings_SE_Library" package="JACK" value="JACK" x="7.5" y="4.5" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.5" y="9" size="1" layer="21" ratio="10" rot="R180" align="bottom-right"/>
-<attribute name="NAME" x="3.75" y="4.5" size="1" layer="51" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="7.5" y="4.5" size="1" layer="51" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J8" library="uRings_SE_Library" package="JACK" value="JACK" x="32.5" y="17" smashed="yes" rot="R180">
 <attribute name="NAME" x="28" y="22" size="1" layer="21" ratio="10"/>
-<attribute name="NAME" x="32.5" y="13.25" size="1" layer="51" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="32.5" y="17" size="1" layer="51" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="J7" library="uRings_SE_Library" package="JACK" value="JACK" x="20" y="17" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.5" y="22" size="1" layer="21" ratio="10"/>
-<attribute name="NAME" x="20" y="13.25" size="1" layer="51" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="20" y="17" size="1" layer="51" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="J6" library="uRings_SE_Library" package="JACK" value="JACK" x="7.5" y="17" smashed="yes" rot="R180">
 <attribute name="NAME" x="3" y="22" size="1" layer="21" ratio="10"/>
-<attribute name="NAME" x="7.5" y="13.25" size="1" layer="51" ratio="10" rot="R180" align="center"/>
+<attribute name="NAME" x="7.5" y="17" size="1" layer="51" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="J5" library="uRings_SE_Library" package="JACK" value="JACK" x="7.5" y="46" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.5" y="50.5" size="1" layer="21" ratio="10" rot="R180" align="bottom-right"/>
-<attribute name="NAME" x="3.75" y="46" size="1" layer="51" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="7.5" y="46" size="1" layer="51" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J4" library="uRings_SE_Library" package="JACK" value="JACK" x="7.5" y="61" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.5" y="65.5" size="1" layer="21" ratio="10" rot="R180" align="bottom-right"/>
-<attribute name="NAME" x="3.75" y="61" size="1" layer="51" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="7.5" y="61" size="1" layer="51" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J3" library="uRings_SE_Library" package="JACK" value="JACK" x="7.5" y="76" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.5" y="80.5" size="1" layer="21" ratio="10" rot="R180" align="bottom-right"/>
-<attribute name="NAME" x="3.75" y="76" size="1" layer="51" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="7.5" y="76" size="1" layer="51" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="J2" library="uRings_SE_Library" package="JACK" value="JACK" x="7.5" y="91" smashed="yes" rot="R90">
 <attribute name="NAME" x="12.5" y="95.5" size="1" layer="21" ratio="10" rot="R180" align="bottom-right"/>
-<attribute name="NAME" x="3.75" y="91" size="1" layer="51" ratio="10" rot="R90" align="center"/>
+<attribute name="NAME" x="7.5" y="91" size="1" layer="51" ratio="10" rot="R90" align="center"/>
 </element>
 <element name="P9" library="uRings_SE_Library" package="POT" value="B10k" x="32.5" y="46" smashed="yes" rot="R180">
 <attribute name="NAME" x="37.9" y="51.5" size="1" layer="21" ratio="10" rot="R180" align="bottom-right"/>
@@ -574,6 +599,8 @@ design rules under a new name.</description>
 <attribute name="NAME" x="28.5" y="34.5" size="1" layer="51" ratio="10" rot="R180" align="center"/>
 </element>
 <element name="H1-H4" library="uRings_SE_Library" package="HEADERS-MALE" value="HEADERS-MALE" x="0" y="0" smashed="yes"/>
+<element name="U$1" library="uRings_SE_Library" package="LED-SPACER" value="" x="11.5" y="34.5" smashed="yes"/>
+<element name="U$2" library="uRings_SE_Library" package="LED-SPACER" value="" x="28.5" y="34.5" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">

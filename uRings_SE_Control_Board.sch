@@ -186,8 +186,9 @@ by exp-lbrs.ulp</description>
 <pad name="P3" x="0" y="4.92" drill="1" diameter="1.8"/>
 <text x="4.5" y="-5" size="1" layer="21" ratio="10" rot="R90" align="bottom-right">&gt;NAME</text>
 <hole x="0" y="0" drill="3"/>
-<text x="0" y="3.75" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
-<circle x="0" y="0" radius="1.5" width="0.127" layer="20"/>
+<text x="0" y="0" size="1" layer="51" ratio="10" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
 </package>
 <package name="POT">
 <wire x1="4.85" y1="-5.5" x2="-4.85" y2="-5.5" width="0.127" layer="21"/>
@@ -211,6 +212,8 @@ by exp-lbrs.ulp</description>
 <pad name="P$5" x="4.4" y="0" drill="2.2" diameter="3.2" rot="R270"/>
 <text x="-5.4" y="-5.5" size="1" layer="21" ratio="10" align="bottom-right">&gt;NAME</text>
 <text x="0" y="0" size="1" layer="51" ratio="10" rot="R180" align="center">&gt;NAME</text>
+<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
 </package>
 <package name="TL1105">
 <circle x="0" y="0" radius="1.75" width="0.127" layer="21"/>

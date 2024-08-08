@@ -583,6 +583,11 @@ by exp-lbrs.ulp</description>
 <text x="0" y="-2.6" size="1" layer="22" ratio="10" rot="MR180" align="bottom-center">RX</text>
 <text x="1.8" y="1.3" size="1.5" layer="21" ratio="12" align="center-left">TX</text>
 <text x="1.8" y="-1.3" size="1.5" layer="21" ratio="12" align="center-left">RX</text>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="51" curve="-180"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="51"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="51" curve="-180"/>
+<text x="0" y="0" size="1" layer="51" ratio="10" rot="R270" align="center">&gt;NAME</text>
 </package>
 <package name="0805-NP">
 <description>Capacitor, Chip; 2.00 mm L X 1.25 mm W X 0.60 mm H body&lt;p&gt;&lt;i&gt;PCB Libraries Packages&lt;/i&gt;</description>
